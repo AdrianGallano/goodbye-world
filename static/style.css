@@ -42,7 +42,6 @@ body {
     padding: 1em 0;
     background-color: rgba(0, 0, 0, 0.484);
     backdrop-filter: blur(8px);
-    /* box-shadow: 0 2px 10px #fafaf661; */
 }
 
 
@@ -148,7 +147,6 @@ body {
 }
 
 #shout:hover {
-    /* box-shadow: inset 400px 0 0 0 #17f1d1 ; */
     box-shadow: 0 0 20px 0 var(--extra-colorThree);
 }
 
@@ -162,7 +160,7 @@ body {
     padding-top: 5rem;
 }
 
-.about-label{
+.label{
     font-size: 5rem;
     margin-bottom: 3rem;
     text-align: center; 
@@ -238,6 +236,56 @@ a.next:hover {
     animation-duration: 1.5s;
 }
 
+/* team section */
+.team-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10em 2em;
+    align-items: center;
+    gap: 3rem;
+}
+
+.team-card{
+    display: flex;
+    align-items: center;
+    background-color: #262626;
+    border-radius: 5px;
+    padding: 2em 5em;
+    justify-content: space-between;
+    width: 600px;
+    gap: 3em;
+}
+
+.member{
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    font-variant-caps: unicase;
+}
+
+.member-tag{
+    font-size: 2rem;
+}
+
+.member-button{
+    font-weight: 700;
+    border: none;
+    background-color: #A374FF;
+    padding: 1em 2em;
+    border-radius: 5px;
+    transition: 300ms ease-in-out;
+}
+
+.member-button:hover {
+    box-shadow: 0 0 20px 0 var(--extra-colorThree);
+}
+
+.member-link{
+    text-decoration: none;
+}
+
+
 @keyframes fade {
     from {
         opacity: .4
@@ -273,6 +321,14 @@ a.next:hover {
 
     .text{
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 700px){
+    .team-card{
+        flex-direction: column;
+        width: 100%;
+        padding: 3em 2em;
     }
 }
 
