@@ -1,0 +1,96 @@
+:root {
+    --text-color: #FAFAF6;
+    --background-color: black;
+    --extra-colorOne: #ffd074;
+    --extra-colorTwo: #17f1d1;
+    --extra-colorThree: #A374FF;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+
+}
+
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+#my-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+hr{
+    width: 350px;
+}
+
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    margin-bottom: 3em;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+.upper-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile{
+    border-radius: 50%;
+}
+
+.info{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 20px;
+}
+
+.socials{
+    display: flex;
+    gap: .5em;
+    margin-top: 1em;
+}
+
+.tag{
+    font-weight: 700;
+    color: #b4b1b1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media (max-width: 480px){
+    .upper{
+        flex-direction: column;
+    }
+    
+    hr{
+        width: 90%;
+    }
+}
