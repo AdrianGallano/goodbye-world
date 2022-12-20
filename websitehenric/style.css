@@ -1,0 +1,85 @@
+:root {
+    --text-color: #FAFAF6;
+    --background-color: black;
+    --extra-colorOne: #ffd074;
+    --extra-colorTwo: #17f1d1;
+    --extra-colorThree: #A374FF;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+}
+h1 {
+    top: 100px;
+    text-align: left;
+    font-size: 40px;
+    color:  #ffd074;
+    margin-top: 100px;
+
+}
+
+.container{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+}
+
+.glow {
+    top: 100px;
+    text-align: left;
+    font-size: 30px;
+    color:  #ffd074;
+    text-shadow: 0 0 10px  #ffd074, 0 0 20px #ffd074, 0 0 30px #ffd074, 0 0 40px #ffd074, 0 0 50px #ffd074, 0 0 60px #ffd074, 0 0 70px #ffd074;
+    
+}
+
+/* @keyframes glow {
+    from {
+    }
+    
+    to {
+      text-shadow: 0 0 20px #ffd074, 0 0 30px #ffd074, 0 0 40px #ffd074, 0 0 50px #ffd074, 0 0 60px #ffd074, 0 0 70px #ffd074, 0 0 80px #ffd074
+    }
+  }
+  */
+#ricci {
+    display: block;
+    width: 300px;
+}
+
+p{
+font-size: xx-large;
+margin-top: 200px;    
+margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+ 
+#fb {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+  }
+
+body {
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 0px;
+    cursor: crosshair;
+    background-image: url("city.GIF");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
