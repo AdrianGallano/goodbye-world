@@ -42,6 +42,7 @@ body {
     padding: 1em 0;
     background-color: rgba(0, 0, 0, 0.484);
     backdrop-filter: blur(8px);
+    z-index: 1;
 }
 
 
@@ -181,7 +182,6 @@ body {
     gap: 3em;
     height: 350px;
     width: 50%;
-    z-index: -10;
 }
 
 .mySlides {
@@ -212,7 +212,6 @@ a.next{
     font-size: 18px;
     border-radius: 50%;
     transition: 250ms ease-in-out;
-    z-index: -10;
 }
 
 a.prev:hover,
