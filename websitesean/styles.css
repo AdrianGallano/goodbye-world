@@ -107,6 +107,9 @@
         .mobile{
             display: block;
         }
+        .col-2{
+            display: none;
+        }
     }
 
     .nav-active{
