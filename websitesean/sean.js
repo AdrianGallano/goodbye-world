@@ -17,10 +17,6 @@ const navSlide = () => {
         //Mobile Animation
         mobile.classList.toggle('toggle');
     }) 
-    function about(link){
-        console.log(link.value);
-        window.open(link.value)
-    }
 }
 
 navSlide();
